@@ -1,0 +1,35 @@
+.body{
+    color: rgb(31, 29, 29);
+   
+}
+.box{
+    border: 1px solid lightgrey;
+    border-radius: 14px;
+    margin: 40px auto;  /* if we add 2 values 1st value is upper and lower 2nd is left and right */
+    padding: 20px;
+    width: 300px;
+    
+}
+.box-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.bg{
+    color: black;
+    
+}
+.bg-box{
+    width: 300px;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    padding: 40px 20px;
+    margin: 40px auto;
+    background-color: lightcoral;
+
+}
+.bg-box-btn{
+    border: none;
+    border-radius: 80px;
+    
+}
