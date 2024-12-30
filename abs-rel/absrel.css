@@ -1,19 +1,23 @@
-.parent{
-    width: 400px;
-    height: 400px;
+.parent-box{
+    width: 700px;
     margin: 50px auto;
-    background-color: red;
-    border: 1px solid  lightgray;
     position: relative;
-
 }
 
-.child{
-    width: 100px;
-    height: 100px;
-    background-color: black;
+.img{
+    width: 100%;
+   
+}
+
+.word{
     position: absolute;
-    bottom: 0;
+    bottom: 280px;
+    left: 10px;
 }
-
-/* abs and relative is dependent on each other and absoulte element can move inside the relative element */
+.btn{
+    padding: 8px;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    width: 80px;
+}
