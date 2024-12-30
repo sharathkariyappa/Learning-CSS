@@ -45,3 +45,34 @@
     position: sticky;  /* this will stick to given position while scrolling */
     top: 0;
 }
+
+.parent{
+    border:  1px solid lightgray;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 100px;
+    margin-left: 50px;
+    /* position: absolute; */
+
+}
+.child{
+    border:  1px solid lightgray;
+    width: 30px;
+    height: 30px;
+    background-color:black;
+    /* margin-top: 20px; */
+    margin-left: 50px;
+    position: absolute;  /* creates an empty space and next elemnet comes to its position and current element sits above the next element*/
+
+}
+
+.grandchild{
+    border:  1px solid lightgray;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-left: 50px;
+    /* position: absolute; */
+
+}
