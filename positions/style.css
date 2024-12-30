@@ -33,3 +33,15 @@
     border: none;
    padding: 10px;
 }
+
+.second{
+    margin: 50px auto;
+    width: 270px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: orangered;
+    color: white;
+    border-radius: 14px;
+    position: sticky;  /* this will stick to given position while scrolling */
+    top: 0;
+}
