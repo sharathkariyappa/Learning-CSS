@@ -63,3 +63,9 @@
     color: white;
     transition: 1s;
 }
+
+.bookmark{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
