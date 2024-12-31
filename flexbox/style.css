@@ -38,9 +38,10 @@
 
 }
 .profile-img{
-    width: 3oopx;
+    width: 250px;
     height: 200px;
     border-radius: 12px;
+    object-fit: cover;
 
 }
 .profile-btn{
@@ -52,7 +53,9 @@
 }
 .profile-img:hover{
     border-radius: 50%;
-    transition: 1s;
+    transition: 2s;
+    width: 280px;
+    height: 230px;
 }
 
 .profile-btn:hover{
