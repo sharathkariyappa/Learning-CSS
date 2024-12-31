@@ -10,6 +10,7 @@
 .img{
     width: 100%;
     border-radius: 12px;
+    object-fit: cover;
 }
 
 .flex-box{
@@ -23,8 +24,39 @@
 .btn{
     background-color: black;
     color: white;
-    width: 70px;
-    padding: 4px;
+    padding: 8px;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.profile{
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    gap: 20px;
+
+}
+.profile-img{
+    width: 3oopx;
+    height: 200px;
     border-radius: 12px;
 
+}
+.profile-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 12px;
+}
+.profile-img:hover{
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.profile-btn:hover{
+    background-color: green;
+    color: white;
+    transition: 1s;
 }
